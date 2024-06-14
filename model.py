@@ -6,7 +6,7 @@ import numpy as np
 import os
 
 # Set the path to your service account key file
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:/Cloud SDK/Keys/spiritual-slate-391713-cf8cab10aa26.json" # change this PATH with your json credentials file.
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "D:/Cloud SDK/Keys/spiritual-slate-391713-cf8cab10aa26.json"  # change this PATH with your json credentials file.
 
 cloud_logger = logging.getLogger('cloudLogger')
 cloud_logger.setLevel(logging.INFO)
